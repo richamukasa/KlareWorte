@@ -1,0 +1,197 @@
+body {
+    padding-top: 50px;
+    font-family: poppins;
+    background-color: #1e194d;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#c1,
+#c2,
+#c3,
+#c4 {
+    display: none;
+}
+
+#selection,
+#menu {
+    position: absolute;
+    width: 260px;
+}
+
+#selection {
+    height: 720px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#menu {
+    height: 970px;
+}
+
+#wrapper {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 720px;
+}
+
+.chapter,
+.link,
+#quiz {
+    font-size: large;
+    margin: auto;
+    position: relative;
+    width: 250px;
+    height: 90px;
+}
+
+
+.chapter {
+    background-color: #1e194d;
+    border-style: none;
+}
+
+.chapter:hover,
+.chapter1:hover,
+.chapter2:hover,
+.chapter3:hover,
+.chapter4:hover,
+#quiz:hover {
+    width: 240px;
+    height: 80px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.chapter:hover {
+    background-color: #2f2870;
+    border-color: #f3754f;
+}
+
+.chapter1 {
+    background-color: #66BB6A;
+}
+
+.chapter1:hover {
+    background-color: #C1E3C3;
+}
+
+.chapter2 {
+    background-color: #29B6F6;
+}
+
+.chapter2:hover {
+    background-color: #6BBDE3;
+}
+
+.chapter3 {
+    background-color: #FF7043;
+}
+
+.chapter3:hover {
+    background-color: #E3977F;
+}
+
+.chapter4 {
+    background-color: #AB47BC;
+}
+
+.chapter4:hover {
+    background-color: #D89BE3;
+}
+
+#questWrap {
+    width: 1280px;
+    height: 462px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#question {
+    width: 1280px;
+    font-size: x-large;
+}
+
+#question,
+.button {
+    text-align: center;
+    height: 72px;
+}
+
+#source {
+    position:absolute;
+}
+
+.selectable,
+.selected {
+    margin-top: 10px;
+    width: 1260px;
+    height: 134px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: x-large;
+    text-align: center;
+    color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.selectable {
+    border-color: #fff;
+}
+
+.selected {
+    border-color: #f3754f;
+}
+
+.selectable:hover,
+.selected {
+    background-color: #2f2870;
+}
+
+.button {
+    margin-top: 20px;
+    width: 216px;
+    border-style: solid;
+    border-color: #f3754f;
+    border-width: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+}
+
+.response {
+    display: none;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/Poppins/Poppins-Regular.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #1e194d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0c0a22;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2f2870;
+}
